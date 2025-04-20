@@ -79,8 +79,6 @@ Enter your choice: 1
 4. Update Student Grade
 5. Remove Student
 6. Go Back
-.......................
-.......................
 ## Author
 Md. Junayed Bin Karim
 Email: karim22205101667@diu.edu.bd
