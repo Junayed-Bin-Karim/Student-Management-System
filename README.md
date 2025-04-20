@@ -1,96 +1,68 @@
-Student & Teacher Management System (Python OOP Project)
-This is a console-based management system developed using Object-Oriented Programming (OOP) principles in Python. It enables efficient handling of Student and Teacher records—featuring functionalities such as adding, viewing, updating, searching, and deleting records—secured with a login system for access control.
+# Student & Teacher Management System (Python OOP Project)
 
-Features
-Secure Login System
+This is a **console-based management system** developed using **Object-Oriented Programming (OOP)** principles in Python. It enables efficient handling of **Student** and **Teacher** records, featuring functionalities such as adding, viewing, updating, searching, and deleting records—secured with a **login system** for access control.
 
-Multiple predefined user credentials stored in a dictionary
+---
 
-Student Management Module
+## Features
 
-Add new student
+### Secure Login System
+- Multiple predefined user credentials stored in a dictionary
 
-View all students
+### Student Management Module
+- Add new student  
+- View all students  
+- Search student by ID  
+- Update student grade  
+- Remove student  
 
-Search student by ID
+### Teacher Management Module
+- Add new teacher  
+- View all teachers  
+- Search teacher by ID  
+- Update teacher subject  
+- Remove teacher  
 
-Update student grade
-
-Remove student
-
-Teacher Management Module
-
-Add new teacher
-
-View all teachers
-
-Search teacher by ID
-
-Update teacher subject
-
-Remove teacher
-
-Object-Oriented Design
-
+### Object-Oriented Design
 Demonstrates key OOP principles:
+- Abstraction  
+- Inheritance  
+- Encapsulation  
+- Polymorphism  
 
-Abstraction
+---
 
-Inheritance
+## Technologies Used
+- Python 3.x  
+- `abc` module for abstract base classes  
+- Core OOP principles in Python  
 
-Encapsulation
+---
 
-Polymorphism
-
-Technologies Used
-Python 3.x
-
-abc module for abstract base classes
-
-Core OOP concepts in Python
-
-Project Structure
-bash
-Copy
-Edit
-project/
-│
-├── main.py              # Main script containing all functionalities
-├── README.md            # Project documentation (this file)
-└── ...
-Login Credentials
-You can log in using any of the following credentials:
+## Project Structure
 
 
-Username	Password
-Junayed Bin Karim	12345
-teacher1	6789
-Junayed	1234
-How to Run
-Ensure you have Python 3.x installed on your machine.
+---
 
-Download or clone the repository:
+## Login Credentials
 
-bash
-Copy
-Edit
+| Username            | Password |
+|---------------------|----------|
+| Junayed Bin Karim   | 12345    |
+| teacher1            | 6789     |
+| Junayed             | 1234     |
+
+---
+
+## How to Run
+
+1. Ensure you have **Python 3.x** installed on your system.  
+2. Clone the repository:
+
+```bash
 git clone https://github.com/Junayed-Bin-Karim/student-teacher-management.git
-Navigate to the project directory:
-
-bash
-Copy
-Edit
-cd student-teacher-management
-Run the main script:
-
-bash
-Copy
-Edit
-python main.py
-Demo (Console Example)
-pgsql
-Copy
-Edit
+```
+##Demo (Console Example)
 Please log in to access the system.
 Username: Junayed
 Password: 1234
@@ -107,7 +79,9 @@ Enter your choice: 1
 4. Update Student Grade
 5. Remove Student
 6. Go Back
-Author
+.......................
+.......................
+## Author
 Md. Junayed Bin Karim
 Email: karim22205101667@diu.edu.bd
 GitHub: Junayed-Bin-Karim
